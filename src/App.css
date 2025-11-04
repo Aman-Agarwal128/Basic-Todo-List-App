@@ -1,0 +1,64 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  background-color: #FFECC0;
+  color: #000000;
+}
+
+.add-task {
+  display:flex;
+  align-items: center;
+}
+
+.add-task-input {
+  background-color: #FFC29B;
+  height: 3.5rem;
+  border-radius: 0.25rem;
+  border-color: #000000;
+}
+
+.add-task-button {
+  height: 3rem;
+  background-color: maroon !important;
+  color: white !important;
+}
+
+.to-do-task {
+  display: block;
+  text-align: center;
+  padding: 1rem 0.5rem 1rem 0.5rem !important;
+  border: solid maroon 1px;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.to-do-task span {
+  display: block !important;
+}
+
+.to-do-task-buttons {
+  display: block !important;
+}
+
+.to-do-task-buttons Button {
+  margin-right: 0.5rem;
+}
+
+.task-button-delete {
+  height: 1.5rem;
+  background-color: maroon !important;
+  color: white !important;
+  border-radius: 0 !important;
+}
+
+.task-button-markdone {
+  height: 1.5rem;
+  background-color: maroon !important;
+  color: white !important;
+  border-radius: 0 !important;
+}
